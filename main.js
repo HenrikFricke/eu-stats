@@ -13,9 +13,7 @@ var vector = new HeatmapLayer({
       extractStyles: false,
     }),
   }),
-  blur: 25,
-  radius: 7,
-  weight: (feature) => feature.get('population')
+  weight: (feature) => feature.get('weight')
 });
 
 var raster = new TileLayer({

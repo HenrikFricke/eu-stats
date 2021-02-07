@@ -4,7 +4,7 @@
     "ol": "6.5.0"
   },
   "devDependencies": {
-    "node-fetch": "^2.6.1",
+    "axios": "^0.21.1",
     "parcel": "^2.0.0-beta.1",
     "xmlbuilder2": "^2.4.0"
   },
