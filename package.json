@@ -1,0 +1,15 @@
+{
+  "name": "eu-stats",
+  "dependencies": {
+    "ol": "6.5.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.1",
+    "parcel": "^2.0.0-beta.1",
+    "xmlbuilder2": "^2.4.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  }
+}
